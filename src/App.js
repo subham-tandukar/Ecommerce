@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "./animate.css";
+import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
+import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+import Homepage from "./components/Homepage";
+import ErrorPage from "./components/ErrorPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<RegisterForm />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/homepage" element={<Homepage />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;
