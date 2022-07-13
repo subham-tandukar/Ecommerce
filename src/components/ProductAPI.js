@@ -1,7 +1,7 @@
 const product = [
   {
     id: 1,
-    image: "../images/product-img1.jpg",
+    image: "images/product-img1.jpg",
     discount: "20%",
     productName: "Summer Wear",
     categoryName: "T-shirt",
