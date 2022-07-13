@@ -10,7 +10,7 @@ const product = [
   },
   {
     id: 2,
-    image: "../images/product-img2.jpg",
+    image: "images/product-img2.jpg",
     discount: "20%",
     productName: "Autumn Wear",
     categoryName: "Shirt",
@@ -19,7 +19,7 @@ const product = [
   },
   {
     id: 3,
-    image: "../images/product-img3.jpeg",
+    image: "images/product-img3.jpeg",
     discount: "20%",
     productName: "Winter Wear",
     categoryName: "Wollen Jacket",
@@ -28,7 +28,7 @@ const product = [
   },
   {
     id: 4,
-    image: "../images/product-img-4.jpg",
+    image: "images/product-img-4.jpg",
     discount: "20%",
     productName: "Formal Wear",
     categoryName: "Suit",
@@ -37,7 +37,7 @@ const product = [
   },
   {
     id: 5,
-    image: "../images/product-img1.jpg",
+    image: "images/product-img1.jpg",
     discount: "20%",
     productName: "Summer Wear",
     categoryName: "T-shirt",
@@ -46,7 +46,7 @@ const product = [
   },
   {
     id: 6,
-    image: "../images/product-img2.jpg",
+    image: "images/product-img2.jpg",
     discount: "20%",
     productName: "Autumn Wear",
     categoryName: "Shirt",
@@ -55,7 +55,7 @@ const product = [
   },
   {
     id: 7,
-    image: "../images/product-img3.jpeg",
+    image: "images/product-img3.jpeg",
     discount: "20%",
     productName: "Winter Wear",
     categoryName: "Wollen Jacket",
@@ -64,7 +64,7 @@ const product = [
   },
   {
     id: 8,
-    image: "../images/product-img-4.jpg",
+    image: "images/product-img-4.jpg",
     discount: "20%",
     productName: "Formal Wear",
     categoryName: "Suit",
