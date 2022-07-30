@@ -98,10 +98,7 @@ const Login = () => {
               />
               <span className="span">Password</span>
               <span uk-toggle="target: .toggle" onClick={showPassword}>
-                <i
-                  className="fa fa-eye-slash toggle"
-                  title="Show Password"
-                ></i>
+                <i className="fa fa-eye-slash toggle" title="Show Password"></i>
                 <i
                   className="fa fa-eye toggle"
                   title="Hide Password"
